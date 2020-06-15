@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-plugin-facebook4-no-zxing2"
-        version="6.4.0">
+        version="6.4.2">
 
     <name>Facebook Connect</name>
 
@@ -158,7 +158,10 @@
         </config-file>
 
         <!-- Facebook SDK -->
-        <podspec>
+        <framework src="FBSDKCoreKit" type="podspec" spec="5.7.0"/>
+        <framework src="FBSDKLoginKit" type="podspec" spec="5.7.0"/>
+        <framework src="FBSDKShareKit" type="podspec" spec="5.7.0"/>
+        <!-- <podspec>
             <config>
                 <source url="https://cdn.cocoapods.org/"/>
             </config>
@@ -167,8 +170,7 @@
                 <pod name="FBSDKLoginKit" spec="5.7.0"/>
                 <pod name="FBSDKShareKit" spec="5.7.0"/>
             </pods>
-        </podspec>
-
+        </podspec> -->
     </platform>
 
     <!-- browser -->
