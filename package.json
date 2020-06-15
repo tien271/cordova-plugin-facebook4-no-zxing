@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-facebook4-no-zxing2",
-  "version": "6.4.1",
+  "version": "6.4.3",
   "description": "Cordova Facebook SDK 4 Plugin",
   "cordova": {
     "id": "cordova-plugin-facebook4-no-zxing2",
